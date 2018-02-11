@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C645727A203042C50041D557 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C6457279203042C50041D557 /* AppDelegate.m */; };
+		C645727D203042C50041D557 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C645727C203042C50041D557 /* ViewController.m */; };
+		C6457280203042C50041D557 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C645727E203042C50041D557 /* Main.storyboard */; };
+		C6457282203042C50041D557 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6457281203042C50041D557 /* Assets.xcassets */; };
+		C6457285203042C50041D557 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C6457283203042C50041D557 /* LaunchScreen.storyboard */; };
+		C6457288203042C60041D557 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C6457287203042C60041D557 /* main.m */; };
+		C6457292203042C60041D557 /* XiaoAiChatTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C6457291203042C60041D557 /* XiaoAiChatTests.m */; };
+		C645729D203042C60041D557 /* XiaoAiChatUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C645729C203042C60041D557 /* XiaoAiChatUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C645728E203042C60041D557 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C645726D203042C50041D557 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6457274203042C50041D557;
+			remoteInfo = XiaoAiChat;
+		};
+		C6457299203042C60041D557 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C645726D203042C50041D557 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C6457274203042C50041D557;
+			remoteInfo = XiaoAiChat;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C6457275203042C50041D557 /* XiaoAiChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XiaoAiChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6457278203042C50041D557 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C6457279203042C50041D557 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C645727B203042C50041D557 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C645727C203042C50041D557 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C645727F203042C50041D557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C6457281203042C50041D557 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C6457284203042C50041D557 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C6457286203042C60041D557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6457287203042C60041D557 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C645728D203042C60041D557 /* XiaoAiChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XiaoAiChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C6457291203042C60041D557 /* XiaoAiChatTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XiaoAiChatTests.m; sourceTree = "<group>"; };
+		C6457293203042C60041D557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6457298203042C60041D557 /* XiaoAiChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XiaoAiChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C645729C203042C60041D557 /* XiaoAiChatUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XiaoAiChatUITests.m; sourceTree = "<group>"; };
+		C645729E203042C60041D557 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C6457272203042C50041D557 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C645728A203042C60041D557 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6457295203042C60041D557 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C645726C203042C40041D557 = {
+			isa = PBXGroup;
+			children = (
+				C6457277203042C50041D557 /* XiaoAiChat */,
+				C6457290203042C60041D557 /* XiaoAiChatTests */,
+				C645729B203042C60041D557 /* XiaoAiChatUITests */,
+				C6457276203042C50041D557 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C6457276203042C50041D557 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C6457275203042C50041D557 /* XiaoAiChat.app */,
+				C645728D203042C60041D557 /* XiaoAiChatTests.xctest */,
+				C6457298203042C60041D557 /* XiaoAiChatUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C6457277203042C50041D557 /* XiaoAiChat */ = {
+			isa = PBXGroup;
+			children = (
+				C6457278203042C50041D557 /* AppDelegate.h */,
+				C6457279203042C50041D557 /* AppDelegate.m */,
+				C645727B203042C50041D557 /* ViewController.h */,
+				C645727C203042C50041D557 /* ViewController.m */,
+				C645727E203042C50041D557 /* Main.storyboard */,
+				C6457281203042C50041D557 /* Assets.xcassets */,
+				C6457283203042C50041D557 /* LaunchScreen.storyboard */,
+				C6457286203042C60041D557 /* Info.plist */,
+				C6457287203042C60041D557 /* main.m */,
+			);
+			path = XiaoAiChat;
+			sourceTree = "<group>";
+		};
+		C6457290203042C60041D557 /* XiaoAiChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				C6457291203042C60041D557 /* XiaoAiChatTests.m */,
+				C6457293203042C60041D557 /* Info.plist */,
+			);
+			path = XiaoAiChatTests;
+			sourceTree = "<group>";
+		};
+		C645729B203042C60041D557 /* XiaoAiChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C645729C203042C60041D557 /* XiaoAiChatUITests.m */,
+				C645729E203042C60041D557 /* Info.plist */,
+			);
+			path = XiaoAiChatUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C6457274203042C50041D557 /* XiaoAiChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C64572A1203042C60041D557 /* Build configuration list for PBXNativeTarget "XiaoAiChat" */;
+			buildPhases = (
+				C6457271203042C50041D557 /* Sources */,
+				C6457272203042C50041D557 /* Frameworks */,
+				C6457273203042C50041D557 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XiaoAiChat;
+			productName = XiaoAiChat;
+			productReference = C6457275203042C50041D557 /* XiaoAiChat.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C645728C203042C60041D557 /* XiaoAiChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C64572A4203042C60041D557 /* Build configuration list for PBXNativeTarget "XiaoAiChatTests" */;
+			buildPhases = (
+				C6457289203042C60041D557 /* Sources */,
+				C645728A203042C60041D557 /* Frameworks */,
+				C645728B203042C60041D557 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C645728F203042C60041D557 /* PBXTargetDependency */,
+			);
+			name = XiaoAiChatTests;
+			productName = XiaoAiChatTests;
+			productReference = C645728D203042C60041D557 /* XiaoAiChatTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C6457297203042C60041D557 /* XiaoAiChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C64572A7203042C60041D557 /* Build configuration list for PBXNativeTarget "XiaoAiChatUITests" */;
+			buildPhases = (
+				C6457294203042C60041D557 /* Sources */,
+				C6457295203042C60041D557 /* Frameworks */,
+				C6457296203042C60041D557 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C645729A203042C60041D557 /* PBXTargetDependency */,
+			);
+			name = XiaoAiChatUITests;
+			productName = XiaoAiChatUITests;
+			productReference = C6457298203042C60041D557 /* XiaoAiChatUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C645726D203042C50041D557 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = lianluo.com;
+				TargetAttributes = {
+					C6457274203042C50041D557 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					C645728C203042C60041D557 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C6457274203042C50041D557;
+					};
+					C6457297203042C60041D557 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C6457274203042C50041D557;
+					};
+				};
+			};
+			buildConfigurationList = C6457270203042C50041D557 /* Build configuration list for PBXProject "XiaoAiChat" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C645726C203042C40041D557;
+			productRefGroup = C6457276203042C50041D557 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C6457274203042C50041D557 /* XiaoAiChat */,
+				C645728C203042C60041D557 /* XiaoAiChatTests */,
+				C6457297203042C60041D557 /* XiaoAiChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C6457273203042C50041D557 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6457285203042C50041D557 /* LaunchScreen.storyboard in Resources */,
+				C6457282203042C50041D557 /* Assets.xcassets in Resources */,
+				C6457280203042C50041D557 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C645728B203042C60041D557 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6457296203042C60041D557 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C6457271203042C50041D557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C645727D203042C50041D557 /* ViewController.m in Sources */,
+				C6457288203042C60041D557 /* main.m in Sources */,
+				C645727A203042C50041D557 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6457289203042C60041D557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C6457292203042C60041D557 /* XiaoAiChatTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C6457294203042C60041D557 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C645729D203042C60041D557 /* XiaoAiChatUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C645728F203042C60041D557 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6457274203042C50041D557 /* XiaoAiChat */;
+			targetProxy = C645728E203042C60041D557 /* PBXContainerItemProxy */;
+		};
+		C645729A203042C60041D557 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C6457274203042C50041D557 /* XiaoAiChat */;
+			targetProxy = C6457299203042C60041D557 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C645727E203042C50041D557 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C645727F203042C50041D557 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C6457283203042C50041D557 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C6457284203042C50041D557 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C645729F203042C60041D557 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C64572A0203042C60041D557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C64572A2203042C60041D557 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XiaoAiChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianluo.XiaoAiChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C64572A3203042C60041D557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XiaoAiChat/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianluo.XiaoAiChat;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C64572A5203042C60041D557 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XiaoAiChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianluo.XiaoAiChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XiaoAiChat.app/XiaoAiChat";
+			};
+			name = Debug;
+		};
+		C64572A6203042C60041D557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XiaoAiChatTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianluo.XiaoAiChatTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XiaoAiChat.app/XiaoAiChat";
+			};
+			name = Release;
+		};
+		C64572A8203042C60041D557 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XiaoAiChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianluo.XiaoAiChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XiaoAiChat;
+			};
+			name = Debug;
+		};
+		C64572A9203042C60041D557 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XiaoAiChatUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lianluo.XiaoAiChatUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = XiaoAiChat;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C6457270203042C50041D557 /* Build configuration list for PBXProject "XiaoAiChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C645729F203042C60041D557 /* Debug */,
+				C64572A0203042C60041D557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C64572A1203042C60041D557 /* Build configuration list for PBXNativeTarget "XiaoAiChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C64572A2203042C60041D557 /* Debug */,
+				C64572A3203042C60041D557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C64572A4203042C60041D557 /* Build configuration list for PBXNativeTarget "XiaoAiChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C64572A5203042C60041D557 /* Debug */,
+				C64572A6203042C60041D557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C64572A7203042C60041D557 /* Build configuration list for PBXNativeTarget "XiaoAiChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C64572A8203042C60041D557 /* Debug */,
+				C64572A9203042C60041D557 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C645726D203042C50041D557 /* Project object */;
+}
