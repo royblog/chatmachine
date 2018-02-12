@@ -13,6 +13,8 @@
 - (void)awakeFromNib {
     [super awakeFromNib];
     // Initialization code
+    _textBg.layer.cornerRadius = 6;
+    _textBg.layer.masksToBounds = true;
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {

@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface TextOtherTableViewCell : UITableViewCell
-
+    @property (weak, nonatomic) IBOutlet UILabel *textBg;
+    @property (weak, nonatomic) IBOutlet UILabel *textMsg;
+    
 @end
