@@ -35,15 +35,15 @@
 
     [_chatTableView registerNib:[UINib nibWithNibName:@"TextSelfTableViewCell" bundle:nil] forCellReuseIdentifier:@"selfchatcell"];
     
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyBoardShow:) name:UIKeyboardDidShowNotification object:nil];
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyBoardHide:) name:UIKeyboardDidHideNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyBoardShow:) name:UIKeyboardWillShowNotification object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(keyBoardHide:) name:UIKeyboardWillHideNotification object:nil];
     
     UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc]initWithTarget:self action:@selector(tapKeyBoardDown)];
     [self.view addGestureRecognizer:tap];
+    
 }
     
 -(void)calDialogHeight:(NSString *)text {
-    int maxWidth = SCREEN_WIDTH - 105;
     
 }
 
@@ -52,6 +52,7 @@
     NSValue *value = [userInfo objectForKey:UIKeyboardFrameEndUserInfoKey];
     CGRect keyboardRect = [value CGRectValue];
     int height = keyboardRect.size.height;
+    
     self.keyView.frame = CGRectMake(0, SCREEN_HEIGHT - height - 45, SCREEN_WIDTH, 45);
 }
 
