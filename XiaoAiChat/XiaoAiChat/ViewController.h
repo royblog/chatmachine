@@ -10,6 +10,9 @@
 
 @interface ViewController : UIViewController
 
-
+    @property (weak, nonatomic) IBOutlet UITableView *chatTableView;
+    @property (weak, nonatomic) IBOutlet UIView *keyView;
+    @property (weak, nonatomic) IBOutlet UITextField *keyInput;
+    
 @end
 

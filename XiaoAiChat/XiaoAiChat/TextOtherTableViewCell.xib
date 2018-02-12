@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13174"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="109" id="KGk-i7-Jjw" customClass="TextOtherTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="353" height="109"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="353" height="108.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="otherChat" translatesAutoresizingMaskIntoConstraints="NO" id="FeU-xs-4CD">
+                        <rect key="frame" x="0.0" y="0.0" width="293" height="108.5"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GwD-JV-kvb">
+                        <rect key="frame" x="15" y="5" width="273" height="98.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="FeU-xs-4CD" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="BDe-xL-fap"/>
+                    <constraint firstItem="GwD-JV-kvb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="PYX-7q-7w0"/>
+                    <constraint firstAttribute="trailing" secondItem="GwD-JV-kvb" secondAttribute="trailing" constant="65" id="TFJ-Zu-3TE"/>
+                    <constraint firstItem="GwD-JV-kvb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="anG-bO-wkQ"/>
+                    <constraint firstItem="FeU-xs-4CD" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="f6c-x1-kRq"/>
+                    <constraint firstAttribute="trailing" secondItem="FeU-xs-4CD" secondAttribute="trailing" constant="60" id="jQR-Z0-hC5"/>
+                    <constraint firstAttribute="bottom" secondItem="FeU-xs-4CD" secondAttribute="bottom" id="s7q-2h-V20"/>
+                    <constraint firstAttribute="bottom" secondItem="GwD-JV-kvb" secondAttribute="bottom" constant="5" id="wO3-bv-zRB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="aW0-zy-SZf"/>
+            <point key="canvasLocation" x="41.5" y="84.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="otherChat" width="86" height="71"/>
+    </resources>
+</document>
